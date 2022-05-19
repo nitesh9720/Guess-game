@@ -1,0 +1,85 @@
+/* @import url('https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap'); */
+/* @import url('https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap'); */
+
+body {
+  background-color: #222;
+  color: white;
+  font-family: "Press Start 2P", sans-serif;
+  height: 50%;
+}
+.btn {
+  border: 2px solid white;
+  background-color: white;
+  border-radius: 5px;
+  font-size: 20px;
+
+  cursor: pointer;
+}
+.again {
+  margin-left: 5px;
+  box-sizing: border-box;
+  width: 5vw;
+  height: 8vh;
+}
+.between {
+  margin-top: 0%;
+  float: right;
+
+  justify-content: space-between;
+}
+header h1 {
+  text-align: center;
+  width: 100%;
+}
+.number {
+  position: relative;
+  left: 45%;
+  text-align: center;
+  height: 20vh;
+  width: 8vw;
+  background-color: aliceblue;
+  color: black;
+  font-size: 7rem;
+}
+main {
+  display: flex;
+  width: 100vw;
+
+  margin-top: 6vh;
+}
+.left {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  text-align: center;
+  margin-left: 26vw;
+  margin-top: 9vh;
+}
+.right {
+  width: 50%;
+  height: 100px;
+}
+.guess {
+  width: 16vw;
+  height: 22vh;
+  background-color: #222;
+  border: 7px solid white;
+  color: white;
+  font-size: 4rem;
+  text-align: center;
+}
+.message {
+  font-size: 4rem;
+  margin-top: 6vh;
+}
+.check {
+  margin-top: 6vh;
+  margin-left: 4vw;
+  height: 9vh;
+  width: 9vw;
+}
+.label-score,
+.label-highscore {
+  font-size: 3rem;
+  margin-top: -3vw;
+}
